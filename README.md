@@ -61,15 +61,18 @@
 
 #### Overall Metrics:
 
-- **Accuracy**: 94%
-- **Macro Avg**: 
-  - Precision: 93%
-  - Recall: 91%
-  - F1-Score: 92%
-- **Weighted Avg**: 
-  - Precision: 94%
-  - Recall: 94%
-  - F1-Score: 94%
+| Metric           | Value  |
+|------------------|--------|
+| **Accuracy**     | 94%    |
+| ***Macro Avg***    |        |
+| Precision        | 93%    |
+| Recall           | 91%    |
+| F1-Score         | 92%    |
+| ***Weighted Avg*** |        |
+| Precision        | 94%    |
+| Recall           | 94%    |
+| F1-Score         | 94%    |
+
 
 
 
