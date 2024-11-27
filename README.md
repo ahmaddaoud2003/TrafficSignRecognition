@@ -9,7 +9,7 @@
  Accuracy= 94.18%
 
 
-## Classification Report
+### Classification Report
 
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
@@ -57,7 +57,7 @@
 | 41    | 1.00      | 0.92   | 0.96     | 60      |
 | 42    | 0.83      | 1.00   | 0.91     | 90      |
 
-### Overall Metrics:
+#### Overall Metrics:
 
 - **Accuracy**: 0.94
 - **Macro Avg**: 
