@@ -60,6 +60,10 @@
 | 42    | 0.83      | 1.00   | 0.91     | 90      |
 
 #### Overall Metrics:
+**Accuracy:**
+ <img src="https://img.shields.io/badge/Accuracy-94.18%25-brightgreen" width="200"/>
+
+
 
 **Macro Avg:**
 
