@@ -1,6 +1,7 @@
 # TrafficSignRecognition
  A convolutional neural network with accuracy 94% in detecting traffic signs.
  The neural network was trained using the GTSRB-German Traffic Sign Recognition Benchmark.
+ Developed using Tensor Flow and Keras.
 
 ## Link to Dataset (Kaggle):
  https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data
