@@ -7,7 +7,8 @@
  https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data
   
 ## Test Results:
- ###![Accuracy](https://img.shields.io/badge/Accuracy-94.18%25-brightgreen)
+ <img src="https://img.shields.io/badge/Accuracy-94.18%25-brightgreen" width="200"/>
+
 
 
 ### Classification Report
