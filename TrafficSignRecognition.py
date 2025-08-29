@@ -34,10 +34,6 @@ labels = np.array(labels)
 # Splitting the training set into a training set and a validation set
 train_images, val_images, train_labels, val_labels = train_test_split(data, labels, test_size=0.15, random_state=42)
 
-# Normalize pixel values to [0, 1]
-train_images = train_images.astype('float32') / 255.0
-val_images = val_images.astype('float32') / 255.0
-
 # Categorizing labels (One Hot Encoding)
 train_labels = tf.keras.utils.to_categorical(train_labels, num_classes=43)
 val_labels = tf.keras.utils.to_categorical(val_labels, num_classes=43)
@@ -93,5 +89,6 @@ cnn.fit(
 
 # Saving the model
 cnn.save('CNN_Traffic_Sign.keras')
+
 
 
