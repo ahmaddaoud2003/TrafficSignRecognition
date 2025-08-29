@@ -84,13 +84,13 @@ cnn.add(tf.keras.layers.Dense(43, activation='softmax'))  # Output Layer
 cnn.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Training with data augmentation
-history = cnn.fit(
+cnn.fit(
     datagen.flow(train_images, train_labels, batch_size=100),
     steps_per_epoch=len(train_images) // 100,
     validation_data=(val_images, val_labels),
-    epochs=15,
-    verbose=1
+    epochs=15
 )
 
 # Saving the model
 cnn.save('CNN_Traffic_Sign_Augmented.keras')
+
