@@ -92,5 +92,6 @@ cnn.fit(
 )
 
 # Saving the model
-cnn.save('CNN_Traffic_Sign_Augmented.keras')
+cnn.save('CNN_Traffic_Sign.keras')
+
 
