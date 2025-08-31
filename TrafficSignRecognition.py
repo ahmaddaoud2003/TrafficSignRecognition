@@ -82,13 +82,13 @@ cnn.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accurac
 # Training with data augmentation
 cnn.fit(
     datagen.flow(train_images, train_labels, batch_size=100),
-    steps_per_epoch=len(train_images) // 100,
     validation_data=(val_images, val_labels),
     epochs=15
 )
 
 # Saving the model
 cnn.save('CNN_Traffic_Sign.keras')
+
 
 
 
