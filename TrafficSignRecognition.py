@@ -57,7 +57,7 @@ datagen.fit(train_images)
 # Initializing the CNN
 cnn = tf.keras.Sequential()
 
-# Adding the Convolutional and Pooling Layers --> 3 convolutional layers & 2 pooling layers
+# Adding the Convolutional and Pooling Layers --> 4 convolutional layers & 2 pooling layers
 cnn.add(tf.keras.layers.Conv2D(32, (5, 5), activation='relu', input_shape=(32, 32, 3)))
 cnn.add(tf.keras.layers.Conv2D(64, (5, 5), activation='relu'))
 cnn.add(tf.keras.layers.MaxPooling2D(pool_size=2, strides=2))
@@ -88,6 +88,7 @@ cnn.fit(
 
 # Saving the model
 cnn.save('CNN_Traffic_Sign.keras')
+
 
 
 
